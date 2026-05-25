@@ -1543,20 +1543,20 @@
             }, 30);
         }
 
-        // Terminal animation
+        // Terminal animation — dental-specific examples
         const terminal = document.getElementById('terminal');
         const queries = [
             {
-                cmd: '$ br3in search "machine learning"',
-                results: ['[0.94] Neural networks for time series  -- node:alpha', '[0.91] Deep learning fundamentals  -- node:beta', '[0.87] Reinforcement learning papers  -- node:gamma', '> Found 847 results across 12 nodes (0.3s)']
+                cmd: '$ br3in search "clear aligner refinement protocols"',
+                results: ['[0.94] Clear aligner refinement: when and how  -- node:ortho_uk_42', '[0.91] Mid-treatment attachment changes  -- node:ortho_us_12', '[0.87] ClinCheck IPR adjustments  -- node:perio_au_03', '> Found 47 results across 12 verified dentists (0.3s)']
             },
             {
-                cmd: '$ br3in search "orthodontic treatment"',
-                results: ['[0.92] Digital orthodontics with CBCT  -- node:delta', '[0.88] Clear aligner biomechanics  -- node:alpha', '[0.81] Malocclusion classification  -- node:epsilon', '> Found 234 results across 8 nodes (0.2s)']
+                cmd: '$ br3in search "endo-perio combined lesion"',
+                results: ['[0.92] Differential diagnosis: endo vs perio origin  -- node:endo_ie_07', '[0.88] Treatment sequencing for combined lesions  -- node:perio_ca_15', '[0.81] CBCT findings in endo-perio cases  -- node:ortho_uk_42', '> Found 34 results across 8 verified dentists (0.2s)']
             },
             {
                 cmd: '$ br3in status',
-                results: ['NODE     vm101-brain (2409f6a6)', 'CHUNKS   14 indexed | 3 sources', 'MODEL    all-MiniLM-L6-v2 (384d)', 'NETWORK  12 peers | relay:active']
+                results: ['NODE     dental_dr_chavesta (GDC 264589)', 'INDEXED  342 notes | 89 case studies | 156 citations', 'MODEL    all-MiniLM-L6-v2 (384d, multilingual)', 'PEERS    12 GDC-verified | 3 NPI | 1 AHPRA']
             }
         ];
 
